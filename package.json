@@ -2,11 +2,12 @@
   "name": "structure-crud",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/main.js"
+    "dev": "nodemon src/main.js",
+    "start": "node src/main.js"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +21,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "engines":{
+    "node": "16.x"
   }
 }
